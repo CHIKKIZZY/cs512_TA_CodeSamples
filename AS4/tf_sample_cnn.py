@@ -350,9 +350,9 @@ def main():
         eval_results = classifier.evaluate(input_fn=eval_input_fn, steps=None)
 
         print("\n\nEpoch: " + str(epoch + 1) + "\n" + str(eval_results))
-        print("\n---------------------------------------------")
-        print("\nRuntime: " + str(int((time.time() - start_time) / 60)) + " minutes")
-        print("\n---------------------------------------------")
+    print("\n---------------------------------------------")
+    print("\nRuntime: " + str(int((time.time() - start_time) / 60)) + " minutes")
+    print("\n---------------------------------------------")
 
 
 

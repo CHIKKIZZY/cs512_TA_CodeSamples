@@ -14,7 +14,11 @@ There are few other things that the script does such as:
 
 # Run Script Instruction
 Dependencies: You should have the latest version(v11.1.0) of tensorflow/tensorflow-gpu installed.
+
 To run the script use command: python tf_sample_cnn.py
+
+Depending on your system's resources this script should run any where from 5 minutes to 1 hr. 
+Training on my laptop with 16GB memory, Core i7 8th generation 2.20 GHz, and NVIDIA GeForce GTX 1050 Ti GPU takes about 4 minutes on average.
 
 # Note
 This sample code is intended as a bootstrap for AS4. 
