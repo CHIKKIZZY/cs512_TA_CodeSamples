@@ -1,4 +1,4 @@
-# Deeplearning on Google Colab 
+# Deep Learning on Google Colab 
 There are a couple of ways to train on Colab and the steps you follow will depend on what you want to do. 
 Here I will detail the steps:
 
@@ -75,7 +75,7 @@ as ```'cnn_model'```. Hence it will be located at ```/content/cnn_model```
 3. Step D-i-2 assumes your model directory is named ```'cnn_model'``` 
    and moves the model to your Drive's ```/apps``` folder
 4. In you Drive, navigate to the ```/apps``` folder and download the model: 
-   >**right-click on the model's folder > Download**
+   >right-click on the model's folder > Download
 5. Unzip the downloaded file
 6. Open the terminal and activate the environment where you have installed TensorFlow/TensorBoard on your computer
 7. Use the command to load your model: ```tensorboard --logdir=/path/to/unzipped/model/dir```
