@@ -13,7 +13,7 @@ Here I will detail the steps:
 Ok, let's get to it!
 
 
-# A. Setup Colab GPU Environment 
+## A. Setup Colab GPU Environment 
 1. [Go to Colab's welcome page](https://colab.research.google.com/notebooks/welcome.ipynb)
 2. Click on: 
     > File > New Python 3 Notebook
@@ -29,7 +29,7 @@ Ok, let's get to it!
     + You may install keras using commands: ```!pip install keras```
 
 
-# B. Connect your Google Drive to Colab
+## B. Connect your Google Drive to Colab
 1. In your google drive create folder ```/apps```
 2. Copy over the sample code to the folder
 3. Copy, Paste, and Run the following code in the notebook to install all needed packages to link Colab to your Drive 
@@ -57,17 +57,17 @@ Ok, let's get to it!
 9. Step B-8 should display the sample code you copied over to your ```/apps``` folder in Step B-2
 
 
-# C. Train Your Model
+## C. Train Your Model
 Assuming the sample code is named tf_sample_cnn.py, the following command runs the script:
 ```!python drive/apps/tf_sample_cnn.py```
 
 
-# D. Visualize Your Results with TensorBoard
+## D. Visualize Your Results with TensorBoard
 
 You could either download the saved model to your local drive and run TensorBoard directly on your computer 
 or you could do it directly on Colab. I will illustrate both options.
 
-## i. Download Saved Model
+### i. Download Saved Model
 By default Colab saves the model in ```/content```. In my sample code I specified the model directory 
 as ```'cnn_model'```. Hence it will be located at ```/content/cnn_model```
 1. To locate where your model is saved run the command: ```!find / -type d -name "name_of_model"```
@@ -81,7 +81,7 @@ as ```'cnn_model'```. Hence it will be located at ```/content/cnn_model```
 7. Use the command to load your model: ```tensorboard --logdir=/path/to/unzipped/model/dir```
 8. Open your browser(preferably google chrome) and go to: ```localhost:6006```
 
-## ii. D-ii: Run TensorBoard Directly from Colab
+### ii. D-ii: Run TensorBoard Directly from Colab
 1. Download and unzip ngrok using the following commands:
     ```
     !wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
@@ -107,7 +107,7 @@ as ```'cnn_model'```. Hence it will be located at ```/content/cnn_model```
 
 **That's it!**
 
-# Here are some useful resources:
+## Here are some useful resources:
 1. [YouTube Video for Colab Bignner](https://www.youtube.com/watch?v=4BVpzY6prJ0)
 2. [Use TensorBoard on Colab](
     https://colab.research.google.com/drive/1afN2SALDooZIHbBGmWZMT6cZ8ccVElWk#scrollTo=b0wdo5o8dyzm)
