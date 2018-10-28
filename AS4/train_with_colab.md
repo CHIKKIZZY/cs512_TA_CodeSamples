@@ -1,6 +1,6 @@
 # Deep Learning on Google Colab 
 There are a couple of ways to train on Colab and the steps you follow will depend on what you want to do. 
-Here I will detail the steps following:
+Here I will detail the following steps:
 
     A. Setup a GPU Colab environment
 
