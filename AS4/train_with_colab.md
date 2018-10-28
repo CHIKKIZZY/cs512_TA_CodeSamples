@@ -1,6 +1,6 @@
 # Deep Learning on Google Colab 
 There are a couple of ways to train on Colab and the steps you follow will depend on what you want to do. 
-Here I will detail the steps:
+Here I will detail the steps following:
 
     A. Setup a GPU Colab environment
 
@@ -10,7 +10,7 @@ Here I will detail the steps:
 
     D. Visualize your results using TensorBoard
 
-Ok, let's get to it!
+**Ok, let's get to it!**
 
 
 ## A. Setup Colab GPU Environment 
@@ -81,7 +81,7 @@ as ```'cnn_model'```. Hence it will be located at ```/content/cnn_model```
 7. Use the command to load your model: ```tensorboard --logdir=/path/to/unzipped/model/dir```
 8. Open your browser(preferably google chrome) and go to: ```localhost:6006```
 
-### ii. D-ii: Run TensorBoard Directly from Colab
+### ii. Run TensorBoard Directly from Colab
 1. Download and unzip ngrok using the following commands:
     ```
     !wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
