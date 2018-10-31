@@ -52,7 +52,10 @@ Here I will detail the following steps:
 5. You will be redirected to a page which displays a key, copy the key into the box and press ```Shift + Enter```
 6. You may have to repeat Steps B-4 and B-5 if the server times out
 7. Create a folder in the colab environment and link it to Google Drive using the commands:
-   ```!mkdir -p drive !google-drive-ocamlfuse drive```
+   ```
+   !mkdir -p drive 
+   !google-drive-ocamlfuse drive
+   ```
 8. You can verify Colab is linked to your drive using the command: ```!ls drive/apps/```
 9. Step B-8 should display the sample code you copied over to your ```/apps``` folder in Step B-2
 
